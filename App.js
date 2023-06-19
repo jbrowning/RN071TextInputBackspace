@@ -82,8 +82,8 @@ function App() {
             <SectionDescription>
               To recreate, enter any text and then press the clear button. The
               logs will show that the TextInput onKeyPress event handler
-              receives a Backspace event EVERY time value is changed, including
-              when the value is reset.
+              receives a Backspace event EVERY time value is changed on iOS 16
+              and when the value is reset to an empty string on iOS 15+.
             </SectionDescription>
           </Section>
           <Section>
